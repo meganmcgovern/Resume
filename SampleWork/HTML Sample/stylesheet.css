@@ -1,0 +1,70 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: teal;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: teal;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 12
+}
+
+
+.container {
+    background-color: white;
+}
+
+.navbar {
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+}
+
+.latitude {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: teal;
+    border: 1px solid teal;
+      padding: 15px;
+  }
+
+@media (max-width: 480px) {
+    .navbar {
+        background-color: teal;
+    }
+
+    .navbar-brand {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: teal;
+    }
+
+    .latitude {
+        background-color: white;
+        color: teal;
+    }
+}

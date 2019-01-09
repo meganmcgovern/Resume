@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <title>Web Visialization Weather</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <link rel="stylesheet" href="stylesheet.css">
+            </head>
+            
+            <body>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Navigation bar</span>
+                            <span class= "icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                                <a class="navbar-brand" href="index.html"><span class="latitude">Latitude</a>
+                        </div>
+            
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class ="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations <span class="caret"></span></a>
+                                    <ul class= "dropdown-menu">
+                                        <li><a href="latitude_temps.html">Latitude vs. Max Temperature</a></li>
+                                        <li><a href="latitude_humidity.html">Latitude vs. Humidity</a></li>
+                                        <li><a href="latitude_cloudiness.html">Latitude vs Cloudiness</a></li>
+                                        <li><a href="latitude_wind.html">Latitude vs. Wind Speed</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="comparisons.html">Plots</a></li>
+                                <li><a href="data.html">Data</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+            
+                <div class="container">
+            
+                    <div class="row">
+                        <div class="col-md-6 pad top"> <br>
+
+                            <h3>Latitude vs. Wind Speed</h3>
+                        </div>
+            
+                        <div class="pull-left"><br>
+                            <img src="resources/assets/images/Fig4.png" alt="Lat vs Wind">
+            
+                        </div>
+                    </div>
+            
+                    <div class="row">
+            
+                        <div class="col-md-4 pad top"><br>
+            
+                        <h3>Observations</h3>
+
+                        <div class="pull-right">
+                            <p>Wind speed is somewhat randomly distributed across global latitudes. On the day of this data recording (01/05/17), there were more frequent recordings of high wind speeds at latitudes between 40 and 80. This might allow us to speculate that there was some sort of weather event occuring in this part of the world on that day.</p>
+                        </div>
+                        </div>
+            
+                        <div class="col-md-3 pad top"><br>
+                            <h3>Visualization Links</h3>
+                            <div class="pull-right">
+                                
+                                <a href="latitude_temps.html"><img src="resources/assets/images/Fig1.png" alt="Lat vs Max Temp" width="100%" height="100%"></a>
+                                <a href="latitude_humidity.html"><img src="resources/assets/images/Fig2.png" alt="Lat vs Wind" width="100%" height="100%"></a>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 pad top"><br>
+                            <a href="latitude_cloudiness.html"><img src="resources/assets/images/Fig3.png" alt="Lat vs Clouds" width="100%" height="100%"></a>
+                            <a href="latitude_wind.html"><img src="resources/assets/images/Fig4.png" alt="Lat vs Wind" width="100%" height="100%"></a>
+                        </div>
+                    </div>
+                        </div>
+            
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          
+            </html>
